@@ -1,0 +1,71 @@
+.Resume {
+    align-items: center;
+    font-family: "Arial", sans-serif;
+    color: purple;
+    text-align: center;
+  }
+.downloadResume button{
+        background-color: purple; 
+        border: none;
+        color: lavender;
+        padding: 15px 32px; 
+        width: 40%;
+        text-align: center;
+        align-items: center;
+        text-decoration: none;
+        font-size: 30px;
+        margin: 4px 2px;
+        cursor: pointer;
+      
+}
+
+.downloadResume button:hover {
+    background-color: lavender; 
+  color: purple; 
+  border: 2px solid purple;
+}
+
+
+
+.skills {
+    font-size: 25px;
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .skills h1 {
+    color: purple;
+    padding-right: 75px;
+    font-size: 60px;
+  }
+  .skills h2 {
+    text-align: center;
+    padding-right: 150px;
+    font-size: 45px;
+  }
+  
+  .skills .list {
+    list-style: none;
+    width: 60%;
+  }
+  
+  .list span {
+    font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 900px) {
+    .skills {
+      text-align: center;
+    }
+    .list {
+      padding: 0;
+    }
+  
+    .skills h2 {
+      font-size: 30px;
+    }
+  }

@@ -1,0 +1,83 @@
+h2 {
+    font-size: 60px;
+    padding-left: 100px;
+    color: purple;
+
+}
+.ContactFormStyling {
+    padding-left: 100px;
+     width:400px;
+  }
+
+  .ContactFormStyling form {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    font-size: 16px;
+  }
+  
+  .ContactFormStyling form input {
+    width: 100%;
+    height: 35px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid purple;
+  }
+  
+  .ContactFormStyling form input:focus {
+    border: 2px solid purple;
+  }
+  
+  .ContactFormStyling form textarea {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    max-height: 100px;
+    min-height: 100px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid purple;
+  }
+  
+  .ContactFormStyling form textarea:focus {
+    border: 2px solid purple;
+  }
+  
+  .ContactFormStyling form label {
+    margin-top: 1rem;
+    color: purple;
+  }
+  
+  .ContactFormStyling form input[type="submit"] {
+    margin-top: 2rem;
+    cursor: pointer;
+    background: purple;
+    color: white;
+    border: none;
+  }
+
+
+  aside {
+    font-size: 30px;
+    width: 50%;
+    padding-top: 150hbbpx;
+    padding-right: 100px;
+    float: right;
+    color: purple;
+  }
+  
+  aside > p {
+    margin: 10px;
+  }
+  @media only screen and (max-width: 900px) {
+    .ContactFormStyling aside {
+        font-size: 20px;
+    }
+
+    .ContactFormStyling form {
+        width: 50%;
+    }
+  }
