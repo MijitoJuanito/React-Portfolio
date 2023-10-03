@@ -34,7 +34,7 @@ Run this command in the terminal under index.js
 ### Demonstration
 
 ![Demo of REACT Portfolio]()
-[REACT PORTFOLIO DEMO](https://text-editor323-41195e3b23fc.herokuapp.com)
+[PASSWORD DEMO]([https://text-editor323-41195e3b23fc.herokuapp.com](https://mijitojuanito.github.io/Password-Generator/))
 
 
 
