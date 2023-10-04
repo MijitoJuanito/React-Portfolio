@@ -4,6 +4,7 @@ import TextEditor from '../assets/JATE.jpg';
 import PasswordGenerator from '../assets/PasswordGen.jpg';
 import READMEGEN from '../assets/READMEDEMO.jpg';
 import SocialNetworkAPI from '../assets/SocialNetwork.jpg';
+import FitnessPlus from '../assets/Fitnessplus.jpg'
 
 
 
@@ -42,5 +43,13 @@ export const ProjectList = [
         image: SocialNetworkAPI,
         link : 'https://github.com/MijitoJuanito/Social-Network-API',
         
-    }
+    },
+    {
+        name : "FitnessPlus",
+        image: FitnessPlus,
+        link: 'https://github.com/Elias-Montes/FitnessPlus',
+        Deploy : 'https://fitness-plus-01-f2b055c108e6.herokuapp.com',
+        
+    },
+
 ]
