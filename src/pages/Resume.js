@@ -32,6 +32,7 @@ function Resume() {
             </h2>
             <span>
               HTML, CSS, Javascript, JQuery, Responsive Design, React, Bootstrap
+              I dont knowwwwwwwwwwwwwwwwwwwwwwwwwwww
             </span>
           </li>
           <li className='item'>
