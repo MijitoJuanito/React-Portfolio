@@ -33,7 +33,7 @@ Run this command in the terminal under index.js
 
 ### Demonstration
 
-![Demo of REACT Portfolio](./public/Portfolio.jpg)
+![Demo of REACT Portfolio](./src/assets/Portfolio.jpg)
 [juansoftware](https://juanitosoftware.com)
 
 
