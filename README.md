@@ -33,8 +33,8 @@ Run this command in the terminal under index.js
 
 ### Demonstration
 
-![Demo of REACT Portfolio]()
-[REACT PORTFOLIO DEMO](https://text-editor323-41195e3b23fc.herokuapp.com)
+![Demo of REACT Portfolio](./Assets/Portfolio.jpg)
+[REACT PORTFOLIO DEMO]()
 
 
 

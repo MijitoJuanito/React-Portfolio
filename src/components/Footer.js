@@ -8,9 +8,9 @@ function Footer() {
   return (
     <div className='footer'>
       <div className='socialMedia'>
-        <LinkedInIcon />
-        <Githubicon />
-        <Twittericon />
+        <a href='https://www.linkedin.com/in/juan-de-la-cruz-958518294/'><LinkedInIcon /></a>
+        <a href='https://github.com/MijitoJuanito'><Githubicon  /></a>
+        <a href='https://twitter.com/JdelMijo'><Twittericon /></a>
       </div>
       <p> &copy; 2023 Juanitosoftware.com</p>
     </div>
