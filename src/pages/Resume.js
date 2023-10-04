@@ -2,11 +2,11 @@ import React from 'react';
 import "../styles/Resume.css";
 
 
-const PDF_FILE_URL = 'http://localhost:3000/Resumefile.pdf'
+const PDF_FILE_URL = 'build\\Resumefile.pdf'
 
 function Resume() {
   const downloadFileAtURL=(url) => {
-    const fileName = url.split('/').pop();
+    const fileName = url.split('\\').pop();
     const aTag = document.createElement('a');
     aTag.href=url;
     aTag.setAttribute('download',fileName);
@@ -19,6 +19,7 @@ function Resume() {
     <div className='Resume'>
       <div className='downloadResume'>
       <button onClick={() => downloadFileAtURL(PDF_FILE_URL)}>Download Resume</button>
+      <button><a href=".\build\\Resume.pdf" download="Resume.pdf">Download</a></button>
       </div>
       <div className='skills'>
         <h1>
@@ -31,6 +32,7 @@ function Resume() {
             </h2>
             <span>
               HTML, CSS, Javascript, JQuery, Responsive Design, React, Bootstrap
+              I dont knowwwwwwwwwwwwwwwwwwwwwwwwwwww
             </span>
           </li>
           <li className='item'>
