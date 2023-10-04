@@ -19,6 +19,7 @@ function Resume() {
     <div className='Resume'>
       <div className='downloadResume'>
       <button onClick={() => downloadFileAtURL(PDF_FILE_URL)}>Download Resume</button>
+      <button><a href=".\build\\Resume.pdf" download="Resume.pdf">Download</a></button>
       </div>
       <div className='skills'>
         <h1>
