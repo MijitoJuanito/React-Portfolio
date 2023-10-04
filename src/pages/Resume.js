@@ -6,7 +6,7 @@ const PDF_FILE_URL = 'build\\Resumefile.pdf'
 
 function Resume() {
   const downloadFileAtURL=(url) => {
-    const fileName = url.split('/').pop();
+    const fileName = url.split('\\').pop();
     const aTag = document.createElement('a');
     aTag.href=url;
     aTag.setAttribute('download',fileName);
