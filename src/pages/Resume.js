@@ -2,7 +2,7 @@ import React from 'react';
 import "../styles/Resume.css";
 
 
-const PDF_FILE_URL = 'http://localhost:3000/Resumefile.pdf'
+const PDF_FILE_URL = 'build\Resumefile.pdf'
 
 function Resume() {
   const downloadFileAtURL=(url) => {
